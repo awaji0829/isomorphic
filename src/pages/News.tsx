@@ -8,11 +8,12 @@ const Title = styled("h1")`
   color: orange; */
 `;
 
-export const News = () => (
+const News = () => (
   <div>
     <Helmet>
       <title>News</title>
     </Helmet>
-    <div style={{ color: "yellow" }}>News</div>
+    <div style={{ color: "orange" }}>NEWS CONTENT</div>
   </div>
 );
+export default News;

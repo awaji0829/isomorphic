@@ -11,6 +11,8 @@
     "build:client": "webpack --env=client --progress --profile --color"
   },
   "dependencies": {
+    "@loadable/component": "^5.16.4",
+    "@types/loadable__component": "^5.13.9",
     "css-loader": "^7.1.2",
     "express": "^4.19.2",
     "react": "^18.3.1",
